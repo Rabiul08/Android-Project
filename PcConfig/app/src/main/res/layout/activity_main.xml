@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.pcconfig.MainActivity">
+
+    <Button
+        android:id="@+id/ConfigBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="configur_pc" />
+
+    <Button
+        android:id="@+id/IndiviBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ConfigBtn"
+        android:layout_below="@+id/ConfigBtn"
+        android:layout_marginTop="11dp"
+        android:text="Individual Part" />
+
+    <Button
+        android:id="@+id/GuidsBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/IndiviBtn"
+        android:layout_below="@+id/IndiviBtn"
+        android:layout_marginTop="11dp"
+        android:text="Guids" />
+
+    <Button
+        android:id="@+id/LaptopBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/GuidsBtn"
+        android:layout_below="@+id/GuidsBtn"
+        android:text="Choose Laptop" />
+
+    <Space
+        android:id="@+id/space"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/LaptopBtn"
+        android:layout_marginTop="61dp" />
+
+    <TextView
+        android:id="@+id/down"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/space"
+        android:layout_centerHorizontal="true"
+        android:text="PC Config" />
+
+    <Button
+        android:id="@+id/AboutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/space"
+        android:layout_marginStart="26dp"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/ContactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/space"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/down"
+        android:text="Contact" />
+
+</RelativeLayout>

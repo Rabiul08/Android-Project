@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW_Syllabus</string>
+    <string name="first_year">First Year</string>
+    <string name="second_year">Second Year</string>
+    <string name="third_year">Third Year</string>
+    <string name="final_year">Final Year</string>
+
+</resources>

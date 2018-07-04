@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.muniat_syllabus.Third_Year_odds">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/cse3111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Software Engineering "
+            />
+        <RadioButton
+            android:id="@+id/cse3112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Software Engineering  Lab"
+            />
+        <RadioButton
+            android:id="@+id/cse3121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Database Management System "
+            />
+        <RadioButton
+            android:id="@+id/cse3122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Database Management System Lab  "/>
+        <RadioButton
+            android:id="@+id/cse3131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Digital Signal Processing" />
+        <RadioButton
+            android:id="@+id/cse3132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Digital Signal Processing Lab" />
+        <RadioButton
+            android:id="@+id/cse3141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Compiler Desin "/>
+        <RadioButton
+            android:id="@+id/cse3142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Compiler Desin Lab"/>
+        <RadioButton
+            android:id="@+id/cse3151"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Computer Networks "/>
+        <RadioButton
+            android:id="@+id/cse3152"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Computer Networks Lab"/>
+        <RadioButton
+            android:id="@+id/cse3162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Software Development Lab III "/>
+    </RadioGroup>
+
+
+</RelativeLayout>

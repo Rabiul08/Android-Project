@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="all">
+
+        <item android:id="@+id/cpu"
+            android:title="@string/cpu"></item>
+        <item android:id="@+id/monitor"
+            android:title="@string/monitor"></item>
+        <item android:id="@+id/motherboard"
+            android:title="@string/main_board"></item>
+        <item android:id="@+id/hdd"
+            android:title="Hard Disk"></item>
+        <item
+            android:id="@+id/ram"
+            android:title="@string/ram"></item>
+        <item
+            android:id="@+id/keyaboard"
+            android:title="Keyaboard"></item>
+        <item
+            android:id="@+id/camera"
+            android:title="Web Cam"></item>
+        <item android:id="@+id/mouse"
+            android:title="Mouse"></item>
+        <item
+            android:id="@+id/ups"
+            android:title="UPS"></item>
+        <item android:id="@+id/case1"
+            android:title="Case"></item>
+        <item
+            android:id="@+id/power_supply"
+            android:title="Power Supply"></item>
+        <item
+            android:id="@+id/dvd_writer"
+            android:title="DVD Writer"></item>
+        <item android:id="@+id/speaker"
+            android:title="Speaker"></item>
+        <item android:id="@+id/headphone"
+            android:title="Headphone"></item>
+
+		 <item android:id="@+id/Graphics"
+        android:title="@string/graphics_card"></item>
+
+    </group>
+   
+        
+
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RAB CALL NUMBER</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="r">রাজশাহী</string>
+    <string name="d">ঢাকা</string>
+    <string name="bo">বরিশাল</string>
+
+    <string name="kh">খুলনা</string>
+    <string name="ro">রংপুর</string>
+    <string name="sy">সিলেট</string>
+    <string name="moy">ময়মনসিংহ</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="b">বরিশাল</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

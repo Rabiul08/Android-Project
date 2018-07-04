@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.muniat_syllabus.Third_Year_evens">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/cse3211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="System Analysis and Design "
+            android:onClick="select_subject" />
+        <RadioButton
+            android:id="@+id/cse3221"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Computer Graphics"
+            android:onClick="select_subject"
+            />
+        <RadioButton
+            android:id="@+id/cse3222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Computer Graphics Lab"
+            android:onClick="select_subject"
+            />
+        <RadioButton
+            android:id="@+id/cse3231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Microprocessor and Assembly Language"
+            android:onClick="select_subject"/>
+        <RadioButton
+            android:id="@+id/cse3232"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Microprocessor and Assembly Language Lab"
+            android:onClick="select_subject"/>
+        <RadioButton
+            android:id="@+id/cse3241"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Operating System and System Programming" />
+        <RadioButton
+            android:id="@+id/cse3242"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Operating System and System Programming Lab"
+            android:onClick="select_subject"/>
+        <RadioButton
+            android:id="@+id/cse3251"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Communication Engineering"/>
+        <RadioButton
+            android:id="@+id/cse3252"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="select_subject"
+            android:text="Communication Engineering Lab"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

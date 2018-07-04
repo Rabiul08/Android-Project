@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.rabcallnumber.Dhaka">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dhaka_jela"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bogra"
+                android:text="ঢাকা" />
+
+            <Button
+                android:id="@+id/norshindi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="58dp"
+                android:text="নরসিংদী" />
+
+        <Button
+            android:id="@+id/narayngong"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/joypurhat"
+            android:text="নারায়ণগঞ্জ" />
+
+        <Button
+            android:id="@+id/gajipur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/naoga"
+            android:text="গাজীপুর" />
+
+        <Button
+            android:id="@+id/munishigong"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rajshahi_jela"
+            android:text="মুন্সিগঞ্জ" />
+
+        <Button
+            android:id="@+id/tangail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="টাঙ্গাইল" />
+
+            <Button
+                android:id="@+id/rajbari"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/nator"
+                android:text="রাজবাড়ী" />
+        <Button
+            android:id="@+id/soriytpur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="শরিয়তপুর" />
+        <Button
+            android:id="@+id/gopal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="গোপালগঞ্জ" />
+        <Button
+            android:id="@+id/madaripur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="মাদারীপুর" />
+        <Button
+            android:id="@+id/foridpur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="ফরিদপুর" />
+        <Button
+            android:id="@+id/kisor"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nator"
+            android:text="কিশোরগাঞ্জ" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

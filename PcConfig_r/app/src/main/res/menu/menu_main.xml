@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.rabiul.pcconfig_r.MainActivity">
+
+<item
+    android:id="@+id/browse_parts_m"
+    android:orderInCategory="113"
+    android:title="Browse_parts" />
+
+<item
+    android:id="@+id/completed_Build_m"
+    android:orderInCategory="119"
+    android:title="Completed Build" />
+<item
+    android:id="@+id/help_m"
+    android:orderInCategory="120"
+    android:title="Help" />
+ <item
+        android:id="@+id/exit"
+        android:orderInCategory="121"
+        android:title="Exit" />
+</menu>

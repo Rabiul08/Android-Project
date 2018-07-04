@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.hw_syllabus.MainActivity">
+
+    <Button
+        android:id="@+id/fist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:text="@string/first_year" />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/third"
+        android:layout_below="@+id/fist"
+        android:layout_marginTop="34dp"
+        android:text="@string/second_year" />
+
+    <Button
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fourth"
+        android:layout_below="@+id/second"
+        android:layout_marginTop="25dp"
+        android:text="@string/third_year" />
+
+    <Button
+        android:id="@+id/fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fist"
+        android:layout_below="@+id/third"
+        android:layout_marginTop="41dp"
+        android:text="@string/final_year" />
+
+</RelativeLayout>

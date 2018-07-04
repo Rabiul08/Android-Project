@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Navigato</string>
+    <string name="title_activity_main2">Navigato</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title"><font fgcolor='#000000'>Hi</font></string> <!--gray-->
+
+    <string name="nav_header_subtitle"><font fgcolor='#000000'>WELCOME TO BOGRA</font></string> <!--gray-->
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="marq">Latest Reviewes.Lowest price.Know better,book better,go better.</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/oddt"
+        android:title="Odd Semester">
+        <menu xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <group android:checkableBehavior="all">
+
+
+                <item
+                    android:id="@+id/cse3111"
+                    android:title="Software Engineering "></item>
+                <item
+                    android:id="@+id/cse3112"
+                    android:title="Software Engineering Lab"></item>
+                <item
+                    android:id="@+id/cse3121"
+                    android:title="Database Management System "></item>
+                <item
+                    android:id="@+id/cse3122"
+                    android:title="Database Management System lab"></item>
+                <item
+                    android:id="@+id/cse3131"
+                    android:title="Digital System Processing "></item>
+                <item
+                    android:id="@+id/cse3132"
+                    android:title="Digital System Processing Lab"></item>
+                <item
+                    android:id="@+id/cse3141"
+                    android:title="Compiler Desin  "></item>
+                <item
+                    android:id="@+id/cse3142"
+                    android:title="Compiler Desin Lab "></item>
+                <item
+                    android:id="@+id/cse3151"
+                    android:title="Computer Networks  "></item>
+                <item
+                    android:id="@+id/cse3152"
+                    android:title="Computer Networks lab "></item>
+                <item
+                    android:id="@+id/cse3162"
+                    android:title="Software Development Lab III  "></item>
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/event"
+        android:title="Even">
+        <menu xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/cse3211"
+                    android:title="System Analysis and Design "></item>
+                <item
+                    android:id="@+id/cse3221"
+                    android:title="Computer Graphics"></item>
+                <item
+                    android:id="@+id/cse3222"
+                    android:title="Computer Graphics Lab"></item>
+                <item
+                    android:id="@+id/cse3231"
+                    android:title="Microprocessor and Assembly Language"></item>
+                <item
+                    android:id="@+id/cse3232"
+                    android:title="Microprocessor and Assembly Language Lab"></item>
+                <item
+                    android:id="@+id/cse3241"
+                    android:title="Operating System and System Programming"></item>
+                <item
+                    android:id="@+id/cse3242"
+                    android:title="Operating System and System Programming Lab"></item>
+                <item
+                    android:id="@+id/cse3251"
+                    android:title="Communication Engineering"></item>
+                <item
+                    android:id="@+id/cse3252"
+                    android:title="Communication Engineering lab"></item>
+
+            </group>
+        </menu>
+    </item>
+</group>
+</menu>

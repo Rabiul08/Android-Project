@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gaming"
+        android:title="@string/gaming" />
+    <item
+        android:id="@+id/official"
+        android:title="@string/official" />
+    <item
+        android:id="@+id/g_Student"
+        android:title="@string/general_student" />
+    <item
+        android:id="@+id/cse_Student"
+        android:title="@string/cse_student" />
+    <item
+        android:id="@+id/business"
+        android:title="@string/business" />
+    <item
+        android:id="@+id/public_people"
+        android:title="@string/public_user" />
+    <item
+        android:id="@+id/reasearch"
+        android:title="@string/reasearch" />
+
+</menu>

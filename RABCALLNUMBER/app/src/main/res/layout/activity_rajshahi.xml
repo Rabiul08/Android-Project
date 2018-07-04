@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ra"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiul.rabcallnumber.Rajshahi">
+
+
+    <Button
+        android:id="@+id/rajshahi_jela"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bogra"
+        android:text="রাজশাহী" />
+
+    <Button
+        android:id="@+id/joypurhat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:text="জয়পুরহাট" />
+
+    <Button
+        android:id="@+id/bogra"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/joypurhat"
+        android:text="বগুড়া" />
+
+    <Button
+        android:id="@+id/nator"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/naoga"
+        android:text="নাটোর" />
+
+    <Button
+        android:id="@+id/naoga"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rajshahi_jela"
+        android:text="নওগাঁ" />
+
+    <Button
+        android:id="@+id/capai"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nator"
+        android:text="চাঁপাইনবাবগঞ্জ" />
+</RelativeLayout>
